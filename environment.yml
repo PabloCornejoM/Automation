@@ -1,0 +1,20 @@
+name: automation_venv
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - pillow
+  - opencv
+  - pip
+  - pip:
+      - pyautogui
+      - keyboard
+      - mouse
+      - pygetwindow
+      - pyscreeze
+      - pymsgbox
+      - ipykernel
+
+# To create the environment, run:
+# conda env create -f environment.yml
